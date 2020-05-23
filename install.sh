@@ -10,14 +10,6 @@ chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
-# HOME Structure
-sudo pirate
-rm -rf ~/.dasos # Needed for Re-Install
-mkdir ~/.dasos
-mkdir ~/.dasos/sense
-mkdir ~/.dasos/time
-mkdir ~/.dasos/desk
-sudo su
 # OPT Structure
 rm -rf /opt/vendor # Needed for Re-Install
 mkdir /opt/vendor
