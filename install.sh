@@ -10,7 +10,7 @@ chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
-# OPT Structure
+# OPT: Structure
 rm -rf /opt/vendor # Needed for Re-Install
 mkdir /opt/vendor
 rm -rf /opt/vendor/github # Needed for Re-Install
